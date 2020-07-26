@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-26T23:07:08Z" name="Default suite" finished-at="2020-07-26T23:07:16Z" duration-ms="8339">
+    <groups>
+    </groups>
+    <test started-at="2020-07-26T23:07:08Z" name="Default test" finished-at="2020-07-26T23:07:16Z" duration-ms="8339">
+      <class name="TestCases.Login">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Login@7fc229ab]" started-at="2020-07-26T23:07:08Z" name="Setup" finished-at="2020-07-26T23:07:13Z" duration-ms="5364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginToApplication()[pri:0, instance:TestCases.Login@7fc229ab]" started-at="2020-07-26T23:07:13Z" name="LoginToApplication" finished-at="2020-07-26T23:07:15Z" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:TestCases.Login@7fc229ab]" started-at="2020-07-26T23:07:15Z" name="Quit" finished-at="2020-07-26T23:07:16Z" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- TestCases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
