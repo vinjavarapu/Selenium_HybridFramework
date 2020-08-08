@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GuruLoginDataDriven {
+public class GuruLoginDataDriven2 {
 	
 	WebDriver driver;
 	
@@ -28,16 +28,20 @@ public class GuruLoginDataDriven {
 	public Object [][] passData() {
 		
 		
-		Object[][] data = new Object[3][2];
+		ExcelDataConfig config = new ExcelDataConfig("./TestData//Ravi.xls");
 		
-		data[0][0]= "mngr271710";
-		data[0][1]= "Uqesasy";
+		int rows = config.getRowCount(0);
 		
-		data[1][0]= "admin2";
-		data[1][1]= "admin2";
 		
-		data[2][0]= "admin3";
-		data[2][1]= "admin3";
+		Object[][] data = new Object[rows][2];
+		
+		for(int i=0; i<rows; i++)
+		{
+			data[i][0] = config.getData(0, i, 0);
+			data[i][1] = config.getData(0, i, 1);
+		}
+		
+	
 		
 		return data;
 		
