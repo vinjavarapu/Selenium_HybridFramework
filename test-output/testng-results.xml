@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-08T14:43:45Z" name="Default suite" finished-at="2020-08-08T14:43:57Z" duration-ms="11689">
+  <suite started-at="2020-08-08T17:12:43Z" name="Default suite" finished-at="2020-08-08T17:13:05Z" duration-ms="22115">
     <groups>
     </groups>
-    <test started-at="2020-08-08T14:43:45Z" name="Default test" finished-at="2020-08-08T14:43:57Z" duration-ms="11689">
-      <class name="DDT_Library.GuruLogin">
-        <test-method signature="Login()[pri:0, instance:DDT_Library.GuruLogin@d83da2e]" started-at="2020-08-08T14:43:45Z" name="Login" finished-at="2020-08-08T14:43:57Z" duration-ms="11668" status="PASS">
+    <test started-at="2020-08-08T17:12:43Z" name="Default test" finished-at="2020-08-08T17:13:05Z" duration-ms="22115">
+      <class name="DDT_Library.GuruLoginDataDriven">
+        <test-method signature="LoginTo(java.lang.String, java.lang.String)[pri:0, instance:DDT_Library.GuruLoginDataDriven@8909f18]" started-at="2020-08-08T17:12:43Z" name="LoginTo" data-provider="GuruLoginData" finished-at="2020-08-08T17:12:51Z" duration-ms="7808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- DDT_Library.GuruLogin -->
+        </test-method> <!-- LoginTo -->
+        <test-method signature="LoginTo(java.lang.String, java.lang.String)[pri:0, instance:DDT_Library.GuruLoginDataDriven@8909f18]" started-at="2020-08-08T17:12:51Z" name="LoginTo" data-provider="GuruLoginData" finished-at="2020-08-08T17:12:58Z" duration-ms="7063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTo -->
+        <test-method signature="LoginTo(java.lang.String, java.lang.String)[pri:0, instance:DDT_Library.GuruLoginDataDriven@8909f18]" started-at="2020-08-08T17:12:58Z" name="LoginTo" data-provider="GuruLoginData" finished-at="2020-08-08T17:13:05Z" duration-ms="7206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTo -->
+      </class> <!-- DDT_Library.GuruLoginDataDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
