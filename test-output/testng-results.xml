@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-26T23:07:08Z" name="Default suite" finished-at="2020-07-26T23:07:16Z" duration-ms="8339">
+  <suite started-at="2020-08-08T14:43:45Z" name="Default suite" finished-at="2020-08-08T14:43:57Z" duration-ms="11689">
     <groups>
     </groups>
-    <test started-at="2020-07-26T23:07:08Z" name="Default test" finished-at="2020-07-26T23:07:16Z" duration-ms="8339">
-      <class name="TestCases.Login">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases.Login@7fc229ab]" started-at="2020-07-26T23:07:08Z" name="Setup" finished-at="2020-07-26T23:07:13Z" duration-ms="5364" status="PASS">
+    <test started-at="2020-08-08T14:43:45Z" name="Default test" finished-at="2020-08-08T14:43:57Z" duration-ms="11689">
+      <class name="DDT_Library.GuruLogin">
+        <test-method signature="Login()[pri:0, instance:DDT_Library.GuruLogin@d83da2e]" started-at="2020-08-08T14:43:45Z" name="Login" finished-at="2020-08-08T14:43:57Z" duration-ms="11668" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="LoginToApplication()[pri:0, instance:TestCases.Login@7fc229ab]" started-at="2020-07-26T23:07:13Z" name="LoginToApplication" finished-at="2020-07-26T23:07:15Z" duration-ms="2136" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginToApplication -->
-        <test-method is-config="true" signature="Quit()[pri:0, instance:TestCases.Login@7fc229ab]" started-at="2020-07-26T23:07:15Z" name="Quit" finished-at="2020-07-26T23:07:16Z" duration-ms="800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Quit -->
-      </class> <!-- TestCases.Login -->
+        </test-method> <!-- Login -->
+      </class> <!-- DDT_Library.GuruLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
