@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="DDT_Library.GuruLogin"/>
+      <class name="TestCases.ReadWriteExcel"/>
       <class name="TestCases.Login"/>
-      <class name="TestCases.SwitchToframe"/>
-      <class name="TestCases.test11"/>
-     
+      <class name="DDT_Library.GuruLoginDataDriven"/>
+      <class name="DDT_Library.test123"/>
+      <class name="JSONDataDriven.DDJSON"/>
+      <class name="TestCases.readexceldata"/>
+      <class name="DDT_Library.GuruLoginDataDriven2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
